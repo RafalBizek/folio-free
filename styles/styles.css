@@ -12,17 +12,12 @@ body {
   font-family: "Oswald", sans-serif;
   font-weight: 400;
 }
-
-h1,
-h2,
-h3,
-h4,
-h5,
-p,
-ul,
-blockquote {
+* {
   padding: 0;
   margin: 0;
+}
+ul {
+  list-style: none;
 }
 .container {
   max-width: 1200px;
@@ -114,11 +109,6 @@ blockquote {
   top: 90%;
   left: 0;
 }
-.nav__items,
-.social__item {
-  list-style: none;
-}
-
 .nav__link,
 .nav__link,
 .social__link {
@@ -159,7 +149,6 @@ blockquote {
   text-align: center;
 }
 .portfolio__items {
-  list-style: none;
   display: flex;
   flex-wrap: wrap;
   margin-top: 40px;
@@ -189,7 +178,6 @@ blockquote {
   transform: scale(1);
 }
 .overlay__item {
-  list-style: none;
   margin-bottom: 20px;
 }
 .overlay__item:not(:last-child) {
@@ -313,7 +301,7 @@ blockquote {
   color: var(--color-bg-bio);
   text-decoration: none;
 }
-.news__capital {
+.news__uppercase {
   text-transform: uppercase;
 }
 .blog {
@@ -345,7 +333,6 @@ blockquote {
 }
 .blog__items {
   --space-gap: 15px;
-  list-style: none;
   display: flex;
   flex-wrap: wrap;
   gap: var(--space-gap);
@@ -403,7 +390,6 @@ blockquote {
 }
 .partners__items {
   --space-gap: 50px;
-  list-style: none;
   display: flex;
   gap: var(--space-gap);
 }
@@ -437,7 +423,6 @@ blockquote {
   align-items: center;
 }
 .bio__items {
-  list-style: none;
   display: flex;
 }
 .bio__img {
@@ -489,9 +474,6 @@ blockquote {
 .footer__wrapper {
   margin-top: 30px;
   margin-bottom: 100px;
-}
-.footer__item {
-  list-style: none;
 }
 .footer__item:nth-child(2) {
   margin-top: 30px;
